@@ -1,0 +1,50 @@
+# Example ~/.scrollmanrc. Every setting below shows its built-in default.
+# Lines starting with # are comments; a # later in a line is not.
+
+# Settings. Widths are % of the screen.
+border-width		1
+border-focus		#7fc8ff
+border-normal		#505050
+# Width of a new column.
+column-width		50
+# Steps for cycle-width.
+width-presets		33 50 67
+# Step for shrink-width and grow-width.
+width-step		10
+focus-follows-mouse	no
+
+# Keys: modifiers, a dash, then an X keysym name (see xev).
+# Modifiers: M = Alt, 4 = Super, S = Shift, C = Control.
+# Letters ignore case: M-B is the same as M-b. Use MS-b for Alt+Shift+b.
+# The built-in bindings below are always loaded first. "bind" adds or
+# replaces a binding, "unbind key" removes one, "unbind all" removes all.
+#
+# unbind all
+#
+# bind 4-Return		spawn xterm
+# bind 4-Left		focus-left
+# bind 4-Right		focus-right
+# bind 4-Up		focus-up
+# bind 4-Down		focus-down
+# bind C4-Left		move-column-left
+# bind C4-Right		move-column-right
+# bind C4-Up		move-window-up
+# bind C4-Down		move-window-down
+# bind 4-comma		consume-or-expel-left
+# bind 4-period		consume-or-expel-right
+# bind 4-Prior		focus-workspace-up
+# bind 4-Next		focus-workspace-down
+# bind C4-Prior		move-column-to-workspace-up
+# bind C4-Next		move-column-to-workspace-down
+# bind 4-1		focus-workspace 1
+#   ... 4-2 to 4-9 likewise, and 4-0 for workspace 10
+# bind 4S-1		move-window-to-workspace 1
+#   ... 4S-2 to 4S-9 likewise, and 4S-0 for workspace 10
+# bind 4-r		cycle-width
+# bind 4-f		full-width
+# bind 4S-f		fullscreen
+# bind 4S-comma		shrink-width
+# bind 4S-period		grow-width
+# bind 4-q		close
+# bind 4S-e		quit
+# bind 4S-r		restart
